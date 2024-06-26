@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719317849663,
+  "lastUpdate": 1719405016199,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -93,6 +93,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0011028518191786702",
             "extra": "mean: 424.1680510000094 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d88ef2ee3918a2c9369ab666272d9b838a3c568a",
+          "message": "BREAK: change to Apache license (#432)",
+          "timestamp": "2024-06-26T14:29:40+02:00",
+          "tree_id": "4d6ca6ef58eef44aa8e55795173ba7f455fa8b51",
+          "url": "https://github.com/ComPWA/ampform/commit/d88ef2ee3918a2c9369ab666272d9b838a3c568a"
+        },
+        "date": 1719405015775,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.316439241962917,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008865980594063316",
+            "extra": "mean: 431.6970554999813 msec\nrounds: 2"
           }
         ]
       }
