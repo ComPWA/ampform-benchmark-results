@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719405016199,
+  "lastUpdate": 1722932869492,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -124,6 +124,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0008865980594063316",
             "extra": "mean: 431.6970554999813 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c2a6fd0b379cf479268839be7b15b1058a305abe",
+          "message": "MAINT: upgrade to SymPy v1.13 (#435)\n\n* DX: ignore missing types `sympy`\r\n* FIX: adjust simplification code for SymPy v1.13\r\n* MAINT: address `mypy` errors",
+          "timestamp": "2024-08-06T10:27:08+02:00",
+          "tree_id": "0cc74e3ccc01b1641b8c0979e9fc2b3d7edf117e",
+          "url": "https://github.com/ComPWA/ampform/commit/c2a6fd0b379cf479268839be7b15b1058a305abe"
+        },
+        "date": 1722932868628,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.4126930934376243,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028483392518380594",
+            "extra": "mean: 414.4745980000266 msec\nrounds: 2"
           }
         ]
       }
