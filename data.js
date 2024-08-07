@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722932869492,
+  "lastUpdate": 1723043135905,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -155,6 +155,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00028483392518380594",
             "extra": "mean: 414.4745980000266 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a7d34fcbcf638f5d4b2b94fb0d65badde347900",
+          "message": "MAINT: update pip constraints and pre-commit (#433)\n\n* DX: add `.envrc` definition\r\n* DX: apply new ComPWA dev configuration\r\n* DX: enable `ALL` Ruff linting rules\r\n* DX: switch to Ruff as formatter in Jupyter Lab\r\n* FIX: keep `black` in `doc` dependencies\r\n* FIX: revert `operator.add` change\r\n* MAINT: address remnaining Ruff issues\r\n* MAINT: apply Ruff autofixes\r\n* MAINT: apply unsafe Ruff autofixes\r\n* MAINT: ignore `unsafe_hash` deprecation warning\r\n* MAINT: remove redundant notebook cell metadata",
+          "timestamp": "2024-08-07T17:04:49+02:00",
+          "tree_id": "92be77e425946024ffcb4d5a85084e2afb70df8c",
+          "url": "https://github.com/ComPWA/ampform/commit/1a7d34fcbcf638f5d4b2b94fb0d65badde347900"
+        },
+        "date": 1723043135379,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.2974813656053477,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04162646828336957",
+            "extra": "mean: 435.2592430000044 msec\nrounds: 2"
           }
         ]
       }
