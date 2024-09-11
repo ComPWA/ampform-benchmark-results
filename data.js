@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723043135905,
+  "lastUpdate": 1726019425275,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -186,6 +186,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04162646828336957",
             "extra": "mean: 435.2592430000044 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "edb2be573c694fa8e6bf81b8725840b156e90573",
+          "message": "MAINT: autoupdate constraints and pre-commit config (#436)\n\n* FIX: relink mpl-interactions API\r\n* MAINT: address Ruff issues\r\n* MAINT: apply fixes by pre-commit hooks\r\n* MAINT: write `sphinx-build` flags full\r\n\r\n---------\r\n\r\nCo-authored-by: GitHub <noreply@github.com>",
+          "timestamp": "2024-09-10T21:49:50-04:00",
+          "tree_id": "e6df43c2c32c4e5322c9d2be1cae8aea9d879677",
+          "url": "https://github.com/ComPWA/ampform/commit/edb2be573c694fa8e6bf81b8725840b156e90573"
+        },
+        "date": 1726019425033,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.289464142778281,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036606204591277405",
+            "extra": "mean: 436.7834295000108 msec\nrounds: 2"
           }
         ]
       }
