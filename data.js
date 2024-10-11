@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726019425275,
+  "lastUpdate": 1728662290883,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -217,6 +217,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.036606204591277405",
             "extra": "mean: 436.7834295000108 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "107720976+grayson-helmholz@users.noreply.github.com",
+            "name": "grayson-helmholz",
+            "username": "grayson-helmholz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8e3a6f4271963ed135678fca122e7541c4fbac3c",
+          "message": "MAINT: drop Python 3.7 & 3.8 support due to EOL (#440)",
+          "timestamp": "2024-10-11T17:57:34+02:00",
+          "tree_id": "d103cd62e08f1ca6e563e5dd43cd3878a031202f",
+          "url": "https://github.com/ComPWA/ampform/commit/8e3a6f4271963ed135678fca122e7541c4fbac3c"
+        },
+        "date": 1728662290439,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.129612492559062,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04906631773744703",
+            "extra": "mean: 469.56899599999247 msec\nrounds: 2"
           }
         ]
       }
