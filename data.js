@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728662290883,
+  "lastUpdate": 1729257216793,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -248,6 +248,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04906631773744703",
             "extra": "mean: 469.56899599999247 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "608c08c973d0f4b27e92fe0c8ce9c5e5a64807de",
+          "message": "DX: define developer environment with `uv` (#439)\n\n* DOC: update Binder links\r\n* DX: clean up `tox` configuration\r\n\r\n---------\r\n\r\nCo-authored-by: GitHub <noreply@github.com>\r\nCo-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",
+          "timestamp": "2024-10-18T15:13:06+02:00",
+          "tree_id": "ba141ec37253e5f1698f24a5dca88907b04dbba9",
+          "url": "https://github.com/ComPWA/ampform/commit/608c08c973d0f4b27e92fe0c8ce9c5e5a64807de"
+        },
+        "date": 1729257216492,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 3.3089562526200083,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010029879770251385",
+            "extra": "mean: 302.2101000000248 msec\nrounds: 2"
           }
         ]
       }
