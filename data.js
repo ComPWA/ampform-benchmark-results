@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729257216793,
+  "lastUpdate": 1730110211512,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -279,6 +279,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010029879770251385",
             "extra": "mean: 302.2101000000248 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8cfff67889e73b1454f1f3d33d1fa4399f32ed5b",
+          "message": "FIX: define dev dependencies as dependency groups (#441)\n\n* BREAK: remove `all` optional depdency\r\n* DX: run `pyright` in `tox -e sty` job\r\n* MAINT: update links to TRs\r\n* MAINT: update lock files",
+          "timestamp": "2024-10-28T11:09:40+01:00",
+          "tree_id": "9884fd8c47c5c4aae768d53a0e71b77cb7dbeef0",
+          "url": "https://github.com/ComPWA/ampform/commit/8cfff67889e73b1454f1f3d33d1fa4399f32ed5b"
+        },
+        "date": 1730110210996,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 3.0899328589256885,
+            "unit": "iter/sec",
+            "range": "stddev: 0.034472405227285986",
+            "extra": "mean: 323.63162750004904 msec\nrounds: 2"
           }
         ]
       }
