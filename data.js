@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730110211512,
+  "lastUpdate": 1730982939261,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -310,6 +310,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.034472405227285986",
             "extra": "mean: 323.63162750004904 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "23cef79777974c7b936abd508ee387f8da93faa5",
+          "message": "MAINT: update lock files (#442)\n\n* DX: outsource cron job to pre-commit.ci\r\n* DX: set `PYTHONHASHSEED=0`\r\n* DX: switch to Python 3.12 in developer environment\r\n* FIX: ignore https://doi.org/10.1093\r\n* MAINT: sort `check-dev-files` arguments\r\n\r\n---------\r\n\r\nCo-authored-by: GitHub <noreply@github.com>",
+          "timestamp": "2024-11-07T13:35:08+01:00",
+          "tree_id": "c312091c1008f883dd1e3e97b26baf776302dd59",
+          "url": "https://github.com/ComPWA/ampform/commit/23cef79777974c7b936abd508ee387f8da93faa5"
+        },
+        "date": 1730982938887,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.4912628422600993,
+            "unit": "iter/sec",
+            "range": "stddev: 0.041347835684732756",
+            "extra": "mean: 401.40284800008885 msec\nrounds: 2"
           }
         ]
       }
