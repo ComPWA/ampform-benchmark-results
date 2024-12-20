@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734702447049,
+  "lastUpdate": 1734702765442,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -372,6 +372,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.001001978087106527",
             "extra": "mean: 362.1837165000059 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f955d0a89f26be16f4c5967fb1cd3a3b11614e0c",
+          "message": "ENH: compute hash without `PYTHONHASHSED` (#444)\n\n* BEHAVIOR: compute hash with `md5`\n* DX: add more hashing tests\n* DX: shorten hash test values to first 7 digets\n* ENH: set `pickle` protocol to highest",
+          "timestamp": "2024-12-20T13:52:12Z",
+          "tree_id": "55b9b2c0a79aaf2ee138b4dc10e88c780475118b",
+          "url": "https://github.com/ComPWA/ampform/commit/f955d0a89f26be16f4c5967fb1cd3a3b11614e0c"
+        },
+        "date": 1734702765051,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.786255649415439,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00039506197286701605",
+            "extra": "mean: 358.9046109999998 msec\nrounds: 2"
           }
         ]
       }
