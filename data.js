@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734702765442,
+  "lastUpdate": 1734706447732,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -403,6 +403,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00039506197286701605",
             "extra": "mean: 358.9046109999998 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9fc6c9e8067c8090eae35d06fbc138ab6156b5c1",
+          "message": "FIX: update ampform tag in `uv.lock` (#446)",
+          "timestamp": "2024-12-20T14:53:35Z",
+          "tree_id": "aec90a48ecb910122a3c9c5aa797e3aabf9ad773",
+          "url": "https://github.com/ComPWA/ampform/commit/9fc6c9e8067c8090eae35d06fbc138ab6156b5c1"
+        },
+        "date": 1734706447372,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.7889487726391042,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004117242370508321",
+            "extra": "mean: 358.5580380000053 msec\nrounds: 2"
           }
         ]
       }
