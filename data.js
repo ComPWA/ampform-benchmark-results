@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730982939261,
+  "lastUpdate": 1734702447049,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -341,6 +341,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.041347835684732756",
             "extra": "mean: 401.40284800008885 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "80910285+Zeyna777@users.noreply.github.com",
+            "name": "Lena Poepping",
+            "username": "Zeyna777"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2bbf6080d97a3e09375a705a91e73b49b6e44e38",
+          "message": "MAINT: update lock files (#445)\n\n* DX: remove `files.watcherExclude`\n* MAINT: address PYI066\n  https://docs.astral.sh/ruff/rules/bad-version-info-order/\n* MAINT: implement updates from `check-dev-files`\n* MAINT: remove `enable-cache` argument (defaults to true)\n* MAINT: update to `astral-sh/setup-uv@v5`\n* MAINT: implement updates from pre-commit hooks\n* MAINT: update to QRules with `Fraction`s syntax",
+          "timestamp": "2024-12-20T13:46:52Z",
+          "tree_id": "09df4d818853f3a87f8aba3d92d8a3f0323916fc",
+          "url": "https://github.com/ComPWA/ampform/commit/2bbf6080d97a3e09375a705a91e73b49b6e44e38"
+        },
+        "date": 1734702446368,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.761029705210349,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001001978087106527",
+            "extra": "mean: 362.1837165000059 msec\nrounds: 2"
           }
         ]
       }
