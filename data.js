@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734706447732,
+  "lastUpdate": 1736794576764,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -434,6 +434,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004117242370508321",
             "extra": "mean: 358.5580380000053 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d573b6f8a38db975fa8f92d393dbf5ae85f648a",
+          "message": "MAINT: update lock files (#447)\n\n* DX: convert Tox config to native TOML\n* DX: run benchmarks in default tox job\n* FIX: downgrade `pygments` and `sphinx-codeautolink`\n* FIX: remove Codacy badge\n* FIX: update link to `uv.lock` file explanation\n* FIX: set `CODECOV_TOKEN`\n* FIX: set `sphinx.configuration`\n* MAINT: clean up Codecov config\n\nCo-authored-by: GitHub <noreply@github.com>",
+          "timestamp": "2025-01-13T19:55:39+01:00",
+          "tree_id": "89a9dbcef9ad96c3233c775602dd73bda00e9cd7",
+          "url": "https://github.com/ComPWA/ampform/commit/5d573b6f8a38db975fa8f92d393dbf5ae85f648a"
+        },
+        "date": 1736794576116,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.7992354767255248,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0016253846386406609",
+            "extra": "mean: 357.2403995000002 msec\nrounds: 2"
           }
         ]
       }
