@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736794576764,
+  "lastUpdate": 1738156539539,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -465,6 +465,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0016253846386406609",
             "extra": "mean: 357.2403995000002 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "107720976+grayson-helmholz@users.noreply.github.com",
+            "name": "grayson-helmholz",
+            "username": "grayson-helmholz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3b2047e0e17b027acc8d5e8922ca4bc41bf1c5a",
+          "message": "FIX: fix `is_integer()` bug for QRules v0.10.4 (#450)\n\n* DX: remove `setuptools-scm` version configuration\n* DX: run `tox -e uv` with lock runner\n* MAINT: implement updates from pre-commit hooks\n* MAINT: test framework on Python 3.13\n* MAINT: update lock files",
+          "timestamp": "2025-01-29T14:15:07+01:00",
+          "tree_id": "8d29a042e98800caddba1732a8fe947fb6a0c5c9",
+          "url": "https://github.com/ComPWA/ampform/commit/f3b2047e0e17b027acc8d5e8922ca4bc41bf1c5a"
+        },
+        "date": 1738156539305,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.747947702471777,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003831663155001864",
+            "extra": "mean: 363.9079444999993 msec\nrounds: 2"
           }
         ]
       }
