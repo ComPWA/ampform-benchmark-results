@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738156539539,
+  "lastUpdate": 1738158655066,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -496,6 +496,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003831663155001864",
             "extra": "mean: 363.9079444999993 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "81e31d67336d69cd0aa21033dc454c29ebb6b3b3",
+          "message": "FEAT: implement `NO_CACHE` and `perform_cached_substitution()` (#454)\n\n* BREAK: remove `cache_directory` argument\n* DX: implement `perform_cached_doit()` with decorator\n* DX: implement test for `perform_cached_doit()`\n* DX: run tests single-threaded\n* ENH: ignore disk cache if `NO_CACHE`\n* ENH: set cache dir with `COMPWA_CACHE_DIR`\n* FEAT: implement `perform_cached_substitution()`\n* MAINT: remove GH switch on hashes",
+          "timestamp": "2025-01-29T14:50:19+01:00",
+          "tree_id": "521e9ef15037cb6ee571f97370ae0aefccf9a460",
+          "url": "https://github.com/ComPWA/ampform/commit/81e31d67336d69cd0aa21033dc454c29ebb6b3b3"
+        },
+        "date": 1738158654440,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.682799945263338,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01884839935721376",
+            "extra": "mean: 372.74490100000435 msec\nrounds: 2"
           }
         ]
       }
