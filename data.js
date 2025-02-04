@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738158655066,
+  "lastUpdate": 1738671839401,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -527,6 +527,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01884839935721376",
             "extra": "mean: 372.74490100000435 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b09c9c353cbcc6090219b6bf788330bbe8f5b92",
+          "message": "FIX: add back cell output on website (#455)",
+          "timestamp": "2025-02-04T13:23:21+01:00",
+          "tree_id": "2e9020c06503cb42aefc732bc8151f2d81adedea",
+          "url": "https://github.com/ComPWA/ampform/commit/2b09c9c353cbcc6090219b6bf788330bbe8f5b92"
+        },
+        "date": 1738671838757,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.776757462104878,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009322361452805396",
+            "extra": "mean: 360.1322815000074 msec\nrounds: 2"
           }
         ]
       }
