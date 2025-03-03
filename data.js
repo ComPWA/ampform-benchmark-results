@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738671839401,
+  "lastUpdate": 1740996265931,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -558,6 +558,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0009322361452805396",
             "extra": "mean: 360.1322815000074 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c31c484b13532d3db146194210727a523e205c1c",
+          "message": "FEAT: implement `partial_doit()` function (#456)\n\n* DX: hide `.mypy_cache` from VS Code search results\n* ENH: move more imports to `TYPE_CHECKING`\n* MAINT: remove `partial_doit()` from `symplot`\n* MAINT: remove redundant `_LOGGER` definition",
+          "timestamp": "2025-03-03T11:03:51+01:00",
+          "tree_id": "7c1e6291db525b77fa67678355ae885e8d7e63e8",
+          "url": "https://github.com/ComPWA/ampform/commit/c31c484b13532d3db146194210727a523e205c1c"
+        },
+        "date": 1740996265709,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.7795343122073484,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005030725337019213",
+            "extra": "mean: 359.7724969999945 msec\nrounds: 2"
           }
         ]
       }
