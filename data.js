@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740998084993,
+  "lastUpdate": 1741000813303,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -620,6 +620,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0010550740281934504",
             "extra": "mean: 358.4517899999895 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5bb72e4d7f3a40f0f0a7a409df8d254e7f9f0a34",
+          "message": "FEAT: implement `cached.unfold` for amplitude models (#458)\n\n* ENH: accept AmplitudeModel-like objects in `cached.unfold`\n* ENH: make `unfold()` more efficient and stable",
+          "timestamp": "2025-03-03T12:19:43+01:00",
+          "tree_id": "a1ef02e578dd8951f7e997d3a2836f3cbfec0209",
+          "url": "https://github.com/ComPWA/ampform/commit/5bb72e4d7f3a40f0f0a7a409df8d254e7f9f0a34"
+        },
+        "date": 1741000813066,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.75638403418687,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002476732010778669",
+            "extra": "mean: 362.7941489999955 msec\nrounds: 2"
           }
         ]
       }
