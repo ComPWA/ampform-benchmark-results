@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740996265931,
+  "lastUpdate": 1740998084993,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -589,6 +589,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0005030725337019213",
             "extra": "mean: 359.7724969999945 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7993d4b5e1f1a04d69990b2aaaa17a7e83f4d6b",
+          "message": "FEAT: collect cached SymPy functions in `cached` module (#457)\n\n* ENH: use `TypeVar` on `cached.doit()` signature\n* MAINT: move `perform_cached_` functions to `cached` module\n* MAINT: rename to `test_cache_helpers`",
+          "timestamp": "2025-03-03T11:34:01+01:00",
+          "tree_id": "2142eeffd38b41546259babe22249291a125c578",
+          "url": "https://github.com/ComPWA/ampform/commit/e7993d4b5e1f1a04d69990b2aaaa17a7e83f4d6b"
+        },
+        "date": 1740998084381,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.789775439536874,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0010550740281934504",
+            "extra": "mean: 358.4517899999895 msec\nrounds: 2"
           }
         ]
       }
