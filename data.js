@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741000813303,
+  "lastUpdate": 1741008375847,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -651,6 +651,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002476732010778669",
             "extra": "mean: 362.7941489999955 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab72d6438412c304ce195abbb890b8a47e732192",
+          "message": "ENH: improve cache invalidation of `@cache_to_disk` (#459)\n\n* ENH: clarify in `NO_CACHE` warning that it comes from AmpForm\n* ENH: embed dependency versions in hash\n* ENH: embed function name and package version in hash\n* ENH: organize cache folder like Git index\n* ENH: overwrite dump and load method in `cache_to_disk()` decorator\n* FIX: make parameter substitution argument hashable\n* FIX: set correct function name in warning",
+          "timestamp": "2025-03-03T14:25:42+01:00",
+          "tree_id": "9d234e583a3f5e80e8bbf85eb2e03d8af30cc765",
+          "url": "https://github.com/ComPWA/ampform/commit/ab72d6438412c304ce195abbb890b8a47e732192"
+        },
+        "date": 1741008375473,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.532834045889173,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0036678986385123365",
+            "extra": "mean: 394.8146550000047 msec\nrounds: 2"
           }
         ]
       }
