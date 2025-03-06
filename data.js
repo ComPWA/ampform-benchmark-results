@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741291760596,
+  "lastUpdate": 1741293011042,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -806,6 +806,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0016863916903667635",
             "extra": "mean: 357.0331810000056 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a5aa68f1e3c261f89d7bd76f408a50905025a570",
+          "message": "ENH: memoize `get_readable_hash()` (#466)\n\n* BEHAVIOR: use memoization on `get_readable_hash()`\n* ENH: compute hash over mapping with `frozendict`\n* ENH: make it easier to use `make_hashable`\n* FIX: mark hash as `usedforsecurity=False`\n* MAINT: add more expected hashes to large hash test",
+          "timestamp": "2025-03-06T21:29:41+01:00",
+          "tree_id": "2a0e767c1c7346369c1844eb5b1e83545acab862",
+          "url": "https://github.com/ComPWA/ampform/commit/a5aa68f1e3c261f89d7bd76f408a50905025a570"
+        },
+        "date": 1741293010854,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.7600219166164717,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002064357942564768",
+            "extra": "mean: 362.31596349999506 msec\nrounds: 2"
           }
         ]
       }
