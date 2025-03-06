@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741085329852,
+  "lastUpdate": 1741248464847,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -744,6 +744,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.004762342958065436",
             "extra": "mean: 359.349672999997 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa1004b376041e1b4133e00a25a304a450654029",
+          "message": "ENH: use memoization on functions in `cached` module (#464)\n\n* DOC: update CI badge\n* ENH: do not sort `frozendict` (does not affect hash)\n* FIX: use `GITHUB_TOKEN` instead of `PAT`\n* MAINT: install `frozendict`",
+          "timestamp": "2025-03-06T09:07:11+01:00",
+          "tree_id": "6621400cb3164b71e91d6d2a9d16dd65167eb696",
+          "url": "https://github.com/ComPWA/ampform/commit/fa1004b376041e1b4133e00a25a304a450654029"
+        },
+        "date": 1741248464599,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.759672947240243,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0019498745262770116",
+            "extra": "mean: 362.3617795000058 msec\nrounds: 2"
           }
         ]
       }
