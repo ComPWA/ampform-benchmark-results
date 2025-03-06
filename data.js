@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741248464847,
+  "lastUpdate": 1741291760596,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -775,6 +775,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0019498745262770116",
             "extra": "mean: 362.3617795000058 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e848487b04c0ee650f689dd9ed3b86b88edc9e13",
+          "message": "ENH: convert to `sp.Symbol` before computing `unfold` hash (#465)\n\n* DX: run tests on CI multithreaded\n* DX: test large hash on larger amplitude model",
+          "timestamp": "2025-03-06T21:08:46+01:00",
+          "tree_id": "2ccb441d38abcde3d7ae4fe2c09691069bd8cfaf",
+          "url": "https://github.com/ComPWA/ampform/commit/e848487b04c0ee650f689dd9ed3b86b88edc9e13"
+        },
+        "date": 1741291760077,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.800860125098525,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0016863916903667635",
+            "extra": "mean: 357.0331810000056 msec\nrounds: 2"
           }
         ]
       }
