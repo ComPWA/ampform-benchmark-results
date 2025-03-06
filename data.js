@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741293011042,
+  "lastUpdate": 1741294169235,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -837,6 +837,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002064357942564768",
             "extra": "mean: 362.31596349999506 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a043ffe7144f5a72c207995105bda1dc3aa8be81",
+          "message": "FEAT: implement `cached.simplify` etc (#467)\n\n* FEAT: implement cached simplify and trigsimp\n* FEAT: implement `cached.subs`\n* FIX: add back `cached.doit()` to API",
+          "timestamp": "2025-03-06T21:48:58+01:00",
+          "tree_id": "1324ae78ebddae3c5469cbbc48f372a6b5f29621",
+          "url": "https://github.com/ComPWA/ampform/commit/a043ffe7144f5a72c207995105bda1dc3aa8be81"
+        },
+        "date": 1741294169075,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.7572771540686674,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024160848762556073",
+            "extra": "mean: 362.6766349999997 msec\nrounds: 2"
           }
         ]
       }
