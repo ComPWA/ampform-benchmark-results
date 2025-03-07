@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741359582803,
+  "lastUpdate": 1741361513210,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -899,6 +899,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0011823815331009197",
             "extra": "mean: 360.1276140000067 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "731141f7db222d02a44cd7d9ac360189e4a7ba5f",
+          "message": "MAINT: update lock files (#469)\n\n* MAINT: implement suggestions by Ruff",
+          "timestamp": "2025-03-07T16:31:24+01:00",
+          "tree_id": "aed3ff1171e6625c9df064d4eeef976777d64a77",
+          "url": "https://github.com/ComPWA/ampform/commit/731141f7db222d02a44cd7d9ac360189e4a7ba5f"
+        },
+        "date": 1741361513019,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.784607867823468,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003604409641964811",
+            "extra": "mean: 359.1169915000023 msec\nrounds: 2"
           }
         ]
       }
