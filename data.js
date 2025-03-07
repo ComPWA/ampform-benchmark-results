@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741294169235,
+  "lastUpdate": 1741359582803,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -868,6 +868,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00024160848762556073",
             "extra": "mean: 362.6766349999997 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4cac5d84099ee1d1ce0677ded70a7f5d4133be09",
+          "message": "BEHAVIOR: keep `sp.Indexed` in `unfold()` hash (#468)",
+          "timestamp": "2025-03-07T15:59:13+01:00",
+          "tree_id": "e1b3387d074a5e22b581ef4ef5a997cf9e58e036",
+          "url": "https://github.com/ComPWA/ampform/commit/4cac5d84099ee1d1ce0677ded70a7f5d4133be09"
+        },
+        "date": 1741359582623,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.7767934507793157,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011823815331009197",
+            "extra": "mean: 360.1276140000067 msec\nrounds: 2"
           }
         ]
       }
