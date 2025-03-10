@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741361513210,
+  "lastUpdate": 1741586315268,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -930,6 +930,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.003604409641964811",
             "extra": "mean: 359.1169915000023 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "78c07bf03a242f35de6ebf8d7f3499c765ad0f85",
+          "message": "FIX: make values in mapping hashable (#470)\n\n* DX: write test for `make_hahsable()`\n* ENH: avoid returning tuple when one arg\n* ENH: embed function source code into hash\n* ENH: embed Python version in cache hash\n* FIX: call `_make_hashable_impl` in `_make_hashable_impl`\n* FIX: show warning before evaluating function",
+          "timestamp": "2025-03-10T06:57:56+01:00",
+          "tree_id": "8ad9af2ae8728edb5f65a9ee41cf24260f62f97d",
+          "url": "https://github.com/ComPWA/ampform/commit/78c07bf03a242f35de6ebf8d7f3499c765ad0f85"
+        },
+        "date": 1741586314821,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.7839679653483556,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006942565296548247",
+            "extra": "mean: 359.1995354999966 msec\nrounds: 2"
           }
         ]
       }
