@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754932202392,
+  "lastUpdate": 1754932908853,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -992,6 +992,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03244400012894319",
             "extra": "mean: 395.42565849999534 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "11aa86f791e76473e9dd36ba5fe31ce8a6b238c4",
+          "message": "FIX: insert dynamics into symmetrized amplitudes (#476)\n\n* DOC: add docstring and doctest for `perform_combinatorics()`\n* DOC: add symmetrization example\n* DX: add symmetrization test\n* DX: add test for `perform_combinatorics()`\n* ENH: expose `perform_combinatorics()`\n\n---------\n\nCo-authored-by: Lena Poepping <80910285+Zeyna777@users.noreply.github.com>",
+          "timestamp": "2025-08-11T19:21:17+02:00",
+          "tree_id": "9263c0f0d40b1083e44b06f5a631ece8b15a8f55",
+          "url": "https://github.com/ComPWA/ampform/commit/11aa86f791e76473e9dd36ba5fe31ce8a6b238c4"
+        },
+        "date": 1754932908536,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.530971171527151,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037373964870838904",
+            "extra": "mean: 395.1052510000004 msec\nrounds: 2"
           }
         ]
       }
