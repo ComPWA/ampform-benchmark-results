@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741586315268,
+  "lastUpdate": 1754932202392,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -961,6 +961,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0006942565296548247",
             "extra": "mean: 359.1995354999966 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bf46fd285b3bd9821fab842a91cb0cb8aabb0b59",
+          "message": "DX: switch to `poe` as task runner (#473)\n\n* DX: mark `TestLargeHash` as slow test\n* FIX: relink `ipywidgets` API\n* FIX: skip hash check in QRules v0.9\n* MAINT: address Pyright issues\n* MAINT: update developer configuration\n* MAINT: update hash values in tests\n* MAINT: upgrade lock files",
+          "timestamp": "2025-08-11T19:09:32+02:00",
+          "tree_id": "56cf74ed8b6bd0681e0fcff7d8c31004415f4dbd",
+          "url": "https://github.com/ComPWA/ampform/commit/bf46fd285b3bd9821fab842a91cb0cb8aabb0b59"
+        },
+        "date": 1754932202181,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.528920363421515,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03244400012894319",
+            "extra": "mean: 395.42565849999534 msec\nrounds: 2"
           }
         ]
       }
