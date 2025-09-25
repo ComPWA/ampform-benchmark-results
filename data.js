@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756329353820,
+  "lastUpdate": 1758810723818,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1054,6 +1054,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.045988769822619895",
             "extra": "mean: 405.6562929999359 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "80910285+Zeyna777@users.noreply.github.com",
+            "name": "Lena Poepping",
+            "username": "Zeyna777"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a46372921745c404d75d351e38d86a3e7b71d19b",
+          "message": "BEHAVIOR: improve cut structure break-up momentum  (#479)",
+          "timestamp": "2025-09-25T16:31:29+02:00",
+          "tree_id": "39147e5036ea04779d2df8021ec5a409e4d37905",
+          "url": "https://github.com/ComPWA/ampform/commit/a46372921745c404d75d351e38d86a3e7b71d19b"
+        },
+        "date": 1758810723294,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.570522054058747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.033378237386434355",
+            "extra": "mean: 389.0260339999969 msec\nrounds: 2"
           }
         ]
       }
