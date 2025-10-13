@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758810723818,
+  "lastUpdate": 1760364118372,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1085,6 +1085,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.033378237386434355",
             "extra": "mean: 389.0260339999969 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8e3b769503b736befb11cc47bca553cb00a0eea5",
+          "message": "MAINT: upgrade lock files (#481)\n\n* DX: use Python 3.13 in developer environment\n* FIX: dedent inserted texts\n* MAINT: test AmpForm on Python 3.14",
+          "timestamp": "2025-10-13T16:01:24+02:00",
+          "tree_id": "895adbc8cd7ba28bc31c8b94ecde99888bb2877e",
+          "url": "https://github.com/ComPWA/ampform/commit/8e3b769503b736befb11cc47bca553cb00a0eea5"
+        },
+        "date": 1760364117848,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.6810694072702543,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0012832955702654376",
+            "extra": "mean: 372.98549499998046 msec\nrounds: 2"
           }
         ]
       }
