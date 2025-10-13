@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760364118372,
+  "lastUpdate": 1760367921440,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1116,6 +1116,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0012832955702654376",
             "extra": "mean: 372.98549499998046 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a9d31ea20e8ab17b0500b4a3e7d6b45469e87cdc",
+          "message": "BREAK: drop support for Python 3.9 (#482)",
+          "timestamp": "2025-10-13T17:01:29+02:00",
+          "tree_id": "f5f11086b54f4e3185b7b97daa29981bfc9f68f6",
+          "url": "https://github.com/ComPWA/ampform/commit/a9d31ea20e8ab17b0500b4a3e7d6b45469e87cdc"
+        },
+        "date": 1760367921194,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.625522182066154,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008854681027820125",
+            "extra": "mean: 380.87661449999644 msec\nrounds: 2"
           }
         ]
       }
