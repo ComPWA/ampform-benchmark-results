@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760367921440,
+  "lastUpdate": 1761741244642,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1147,6 +1147,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0008854681027820125",
             "extra": "mean: 380.87661449999644 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c4bc64bc04afe27c8494e3a8a39124f9635400c",
+          "message": "BEHAVIOR: use single square root in `PhaseSpaceFactor` (#484)\n\n* BEHAVIOR: use single square root for `PhaseSpaceFactor`\n* DOC: explain performance decrease for different definitions\n* DOC: render floating-point precision errors\n* DOC: update explanation on analytic continuation page\n* DX: define Pixi `lab` task for Jupyter lab\n* DX: install `jupyterlab-quickopen`\n* FEAT: define `BreakupMomentumSplitSqrt` and `BreakupMomentumKallen`\n* FIX: update links to PWA pages (intersphinx has been removed)\n* MAINT: standardize docstring extension of phasespace factor protocols\n* MAINT: update Jupyter kernels",
+          "timestamp": "2025-10-29T13:33:31+01:00",
+          "tree_id": "ec2380387bc540f8a24469860cb94b09e45149c2",
+          "url": "https://github.com/ComPWA/ampform/commit/1c4bc64bc04afe27c8494e3a8a39124f9635400c"
+        },
+        "date": 1761741244435,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.3540108085182863,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002070044495312367",
+            "extra": "mean: 424.8068855000042 msec\nrounds: 2"
           }
         ]
       }
