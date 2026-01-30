@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761741244642,
+  "lastUpdate": 1769787095268,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1178,6 +1178,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002070044495312367",
             "extra": "mean: 424.8068855000042 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "80910285+Zeyna777@users.noreply.github.com",
+            "name": "Lena Poepping",
+            "username": "Zeyna777"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16227f0b76da0a479f532f6e31fdb01d4d993dff",
+          "message": "FEAT: implement general dispersion integral (#480)\n\n* BREAK: move break-up momentum to `kinematics` module\n* DOC: update link to Chung paper",
+          "timestamp": "2026-01-30T16:31:03+01:00",
+          "tree_id": "c87cd01fbb9684abbe852510056e4a99a38ec4ab",
+          "url": "https://github.com/ComPWA/ampform/commit/16227f0b76da0a479f532f6e31fdb01d4d993dff"
+        },
+        "date": 1769787094779,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 3.1330879343252773,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007911259160279031",
+            "extra": "mean: 319.17393350000367 msec\nrounds: 2"
           }
         ]
       }
