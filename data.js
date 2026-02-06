@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770393621288,
+  "lastUpdate": 1770394369859,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1240,6 +1240,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01831258141560321",
             "extra": "mean: 408.3748754999874 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2044f9ad165f1d71c3fcd2eccd41a04e4f604b3f",
+          "message": "BREAK: remove `HelicityAmplitudeBuilder.set_dynamics()` (#489)",
+          "timestamp": "2026-02-06T17:12:15+01:00",
+          "tree_id": "e4b84fea86eb28a711e116b5517ea46daf2b3bdd",
+          "url": "https://github.com/ComPWA/ampform/commit/2044f9ad165f1d71c3fcd2eccd41a04e4f604b3f"
+        },
+        "date": 1770394369617,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.6505770139172817,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0036829274860522153",
+            "extra": "mean: 377.2763420000018 msec\nrounds: 2"
           }
         ]
       }
