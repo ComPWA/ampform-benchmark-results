@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769787095268,
+  "lastUpdate": 1770393621288,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1209,6 +1209,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0007911259160279031",
             "extra": "mean: 319.17393350000367 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dfdebe1e69b9fdeb4fd77f67584707ac043fa160",
+          "message": "BREAK: remove `symplot` (#485)\n\n* BREAK: move `symplot` to `ampform.sympy.slider`\n* BREAK: remove `SliderKwargs` etc\n* DOC: widen cell output for wide formulas\n* DOC: write Issues instead of Tracker in PyPI\n* DX: define `test-all` task\n* DX: include `uv.lock` in VS Code search\n* DX: outsource lock upgrades to Dependabot\n* DX: run all CI tasks through `poe`\n* DX: switch to `ty` as type checker\n* DX: use Poe the Poet executor options\n* ENH: extend value type of dict\n* ENH: support MathJax in bibliography\n* ENH: widen key type of `kinematic_variables`\n* MAINT: apply new Ruff formatting\n* MAINT: remove `from __future__ import annotations` from notebooks\n* MAINT: remove install cells\n* MAINT: remove `mpl-interactions`\n* MAINT: remove mpl figure format magic call\n* MAINT: remove redundant init files under `tests/`\n* MAINT: remove whitespace from cells\n* MAINT: update bibliography style and citation keys\n* MAINT: update Jupyter kernels\n* MAINT: update test hashes\n* MAINT: upgrade lock files and dev files\n\nCo-authored-by: Remco de Boer <29308176+redeboer@users.noreply.github.com>",
+          "timestamp": "2026-02-06T16:59:49+01:00",
+          "tree_id": "67e9230cf77773edc903f690bbbefb4cd6960be2",
+          "url": "https://github.com/ComPWA/ampform/commit/dfdebe1e69b9fdeb4fd77f67584707ac043fa160"
+        },
+        "date": 1770393621069,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.4487304679938147,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01831258141560321",
+            "extra": "mean: 408.3748754999874 msec\nrounds: 2"
           }
         ]
       }
