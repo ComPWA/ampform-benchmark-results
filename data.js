@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770394369859,
+  "lastUpdate": 1770762507000,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1271,6 +1271,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0036829274860522153",
             "extra": "mean: 377.2763420000018 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90f467f41f1309fb706426d04ebbb86783ad16b1",
+          "message": "FIX: stabilize numerical integral (#490)\n\n* DOC: improve Riemann sheet plot\n* DX: benchmark evaluation time of integral over Riemann sheets\n* DX: reduce resolution of Riemann sheet plot\n* DX: suppress `RemovedInSphinx10Warning` warning\n* ENH: make `quad_vec` call lambdification more extendable\n* FIX: remove default `limit=50` in `quad_vec()` call\n* FIX: remove `type()` call that was used for testing\n* MAINT: apply Prettier formatting to notebooks",
+          "timestamp": "2026-02-10T23:27:39+01:00",
+          "tree_id": "c1105b13215efeebbd093cb506af4f3306e28e87",
+          "url": "https://github.com/ComPWA/ampform/commit/90f467f41f1309fb706426d04ebbb86783ad16b1"
+        },
+        "date": 1770762506413,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.687094431463261,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003723593197031647",
+            "extra": "mean: 372.1491840000013 msec\nrounds: 2"
           }
         ]
       }
