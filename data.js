@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770991735340,
+  "lastUpdate": 1770997746965,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1333,6 +1333,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002366513862566093",
             "extra": "mean: 374.40066900001057 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "80910285+Zeyna777@users.noreply.github.com",
+            "name": "Lena Poepping",
+            "username": "Zeyna777"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dcec6cac3f0e2101bf5b6fff9c7d730a5fe6d0db",
+          "message": "ENH: support `MatrixSymbol` in `HelicityModel` attributes (#495)\n\n* ENH: make signature in dict sorting functions generic",
+          "timestamp": "2026-02-13T15:48:30Z",
+          "tree_id": "bf4cab07aa7e7f6d4e2b30efe7465487bb783d40",
+          "url": "https://github.com/ComPWA/ampform/commit/dcec6cac3f0e2101bf5b6fff9c7d730a5fe6d0db"
+        },
+        "date": 1770997746331,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.662248579956274,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0016017107035770748",
+            "extra": "mean: 375.6223245000001 msec\nrounds: 2"
           }
         ]
       }
