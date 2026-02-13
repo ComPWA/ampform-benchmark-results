@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770762507000,
+  "lastUpdate": 1770991735340,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1302,6 +1302,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.003723593197031647",
             "extra": "mean: 372.1491840000013 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a7caba34d547694db3225e0c1ab36d0d2c1af7ff",
+          "message": "BREAK: convert `chew_manelstam_s_wave()` to expression class (#493)\n\n* DOC: disable full-screen button on website\n* DOC: improve phase space expressions in API\n* DOC: update `README`\n* DOC: use en-dash in names\n* DX: make `_get_subscript()` positional only\n* ENH: let `name` attribute overwrite function LaTeX\n* FIX: remove redundant `typings/` directory\n* MAINT: reduce number of declared variables\n* MAINT: remove `pyright` comments",
+          "timestamp": "2026-02-13T15:08:19+01:00",
+          "tree_id": "3d7187bfa2f748209df204cb789b568f654c2ca2",
+          "url": "https://github.com/ComPWA/ampform/commit/a7caba34d547694db3225e0c1ab36d0d2c1af7ff"
+        },
+        "date": 1770991734747,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.670935398355209,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002366513862566093",
+            "extra": "mean: 374.40066900001057 msec\nrounds: 2"
           }
         ]
       }
