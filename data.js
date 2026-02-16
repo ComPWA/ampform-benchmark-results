@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770997746965,
+  "lastUpdate": 1771253805833,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1364,6 +1364,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0016017107035770748",
             "extra": "mean: 375.6223245000001 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d596d3e771a424f091ac84aad99c64cb1c84b740",
+          "message": "ENH: support more integration algorithms (#492)\n\n* BEHAVIOR: remove `np.vectorize()` call\n* BEHAVIOR: remove epsilon_prime\n* BREAK: make `name` argument keyword-only\n* BREAK: move `meson_radius` to 5th argument position\n* BREAK: rename `L` argument to `angular_momentum`\n* BREAK: rename `UnevalutableIntegral` to `NumericalIntegral`\n* ENH: descrease step size of epsilon sliders\n* ENH: improve widget for ell>0\n* ENH: pass algorithm configuration to `PhaseSpaceFactorPWave`\n* ENH: use `quadax.quadgk` in Riemann sheet notebook\n* FEAT: configure integration algorithm per expression node\n* FEAT: implement different algorithms for `NumericalIntegral`\n* FEAT: implement notebook with `quadax` demo\n* FEAT: support `kw_only` argument in `argument()` function\n* FIX: move `quadax` to notebook dependencies\n* FIX: set correct LaTeX syntax in equation\n* MAINT: avoid `dataclasses` aliases\n* MAINT: replace `versionadded` with `version-added`\n* MAINT: update BibTeX citation keys\n* MAINT: upgrade lock files",
+          "timestamp": "2026-02-16T15:56:14+01:00",
+          "tree_id": "0217db0ef0441904c2f88f8cb992fde254558495",
+          "url": "https://github.com/ComPWA/ampform/commit/d596d3e771a424f091ac84aad99c64cb1c84b740"
+        },
+        "date": 1771253805475,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.7139540078481534,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005846132592652369",
+            "extra": "mean: 368.46608199999764 msec\nrounds: 2"
           }
         ]
       }
