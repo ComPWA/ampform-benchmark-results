@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771253805833,
+  "lastUpdate": 1771256186495,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1395,6 +1395,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0005846132592652369",
             "extra": "mean: 368.46608199999764 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1fac2c9c70c57f9b5bc3c8a4c92bb734d243bdc6",
+          "message": "DOC: reorganize tutorial pages (#497)\n\n* DOC: group amplitude nodebooks\n* DOC: group analyticity notebooks\n* DOC: improve landing page\n* DOC: merge `usage` into `index`\n* DOC: move phase space factor widget to separate notebook\n* DOC: update installation page\n* MAINT: remove ADR template",
+          "timestamp": "2026-02-16T16:35:53+01:00",
+          "tree_id": "add55ef0fb07e2d0f73ce3ca617203bac41447cc",
+          "url": "https://github.com/ComPWA/ampform/commit/1fac2c9c70c57f9b5bc3c8a4c92bb734d243bdc6"
+        },
+        "date": 1771256185973,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 3.1038189574682526,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00027082472562135117",
+            "extra": "mean: 322.1837399999927 msec\nrounds: 2"
           }
         ]
       }
