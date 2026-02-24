@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771256186495,
+  "lastUpdate": 1771929201665,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1426,6 +1426,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00027082472562135117",
             "extra": "mean: 322.1837399999927 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "919fc345b78c95a78cb2edd859345ff7e6b06971",
+          "message": "FIX: reduce pre-commit.ci schedule to quarterly (#498)\n\n* MAINT: address Ruff `ty` issues\n* MAINT: upgrade lock files\n* MAINT: use colon fences for `concat-autolink`",
+          "timestamp": "2026-02-24T11:32:46+01:00",
+          "tree_id": "9b1187e7a146ffb15995e30d003739e4837ffaf2",
+          "url": "https://github.com/ComPWA/ampform/commit/919fc345b78c95a78cb2edd859345ff7e6b06971"
+        },
+        "date": 1771929201388,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.7041932540243323,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020824860391091966",
+            "extra": "mean: 369.79605599999843 msec\nrounds: 2"
           }
         ]
       }
