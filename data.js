@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771929201665,
+  "lastUpdate": 1776080136453,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1457,6 +1457,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00020824860391091966",
             "extra": "mean: 369.79605599999843 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "66853113+pre-commit-ci[bot]@users.noreply.github.com",
+            "name": "pre-commit-ci[bot]",
+            "username": "pre-commit-ci[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c55d3c73089f53541de84b297416fd56880b430",
+          "message": "MAINT: upgrade lock files (#499)\n\n* DX: update pre-commit config with Dependabot\n* MAINT: address `ty` issues",
+          "timestamp": "2026-04-13T13:34:58+02:00",
+          "tree_id": "fd2464e90beb24c36287ecb6b9b35ae7b87274d3",
+          "url": "https://github.com/ComPWA/ampform/commit/5c55d3c73089f53541de84b297416fd56880b430"
+        },
+        "date": 1776080135897,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.681406982938301,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002316565253768915",
+            "extra": "mean: 372.93853799999965 msec\nrounds: 2"
           }
         ]
       }
