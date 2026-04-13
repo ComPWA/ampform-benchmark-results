@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776080136453,
+  "lastUpdate": 1776094453018,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1488,6 +1488,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002316565253768915",
             "extra": "mean: 372.93853799999965 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9900bb884450d202e63176ed8bbaa85b4cbdb815",
+          "message": "MAINT: upgrade `actions/deploy-pages` (#500)",
+          "timestamp": "2026-04-13T17:33:34+02:00",
+          "tree_id": "6f53dd811cb4423ad2a0003b6113ae3726534302",
+          "url": "https://github.com/ComPWA/ampform/commit/9900bb884450d202e63176ed8bbaa85b4cbdb815"
+        },
+        "date": 1776094452491,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.6954638524011183,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0013319756295178137",
+            "extra": "mean: 370.99366000000344 msec\nrounds: 2"
           }
         ]
       }
