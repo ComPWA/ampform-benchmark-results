@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776094453018,
+  "lastUpdate": 1780688572101,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1519,6 +1519,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0013319756295178137",
             "extra": "mean: 370.99366000000344 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f0c2771f2512a4e76ffec06a0556c1f9af4442f",
+          "message": "FIX: determine numerical algorithm correctly (#501)\n\n* DX: add `poe upgrade` task\n* DX: group Poe the Poet tasks\n* MAINT: add type hints for `Printer`\n* MAINT: implement updates from auto-formatters\n* MAINT: upgrade lock files",
+          "timestamp": "2026-06-05T21:42:16+02:00",
+          "tree_id": "d2dc4d3a78fcb6cff308697a8df1a6bb11d5bcb2",
+          "url": "https://github.com/ComPWA/ampform/commit/6f0c2771f2512a4e76ffec06a0556c1f9af4442f"
+        },
+        "date": 1780688571587,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.2767661290657633,
+            "unit": "iter/sec",
+            "range": "stddev: 0.052341045913725244",
+            "extra": "mean: 439.21946449999894 msec\nrounds: 2"
           }
         ]
       }
