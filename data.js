@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780688572101,
+  "lastUpdate": 1784140744428,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1550,6 +1550,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.052341045913725244",
             "extra": "mean: 439.21946449999894 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9713cac8d32889c5ae0627388540003b87eb4216",
+          "message": "MAINT: upgrade lock files (#503)\n\n* DX: switch to Tombi as formatter for TOML",
+          "timestamp": "2026-07-15T20:38:29+02:00",
+          "tree_id": "78afe2d641a199f118cdf1adaa78b9d6b4aa98b6",
+          "url": "https://github.com/ComPWA/ampform/commit/9713cac8d32889c5ae0627388540003b87eb4216"
+        },
+        "date": 1784140744236,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.4032616268916898,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036621315463200646",
+            "extra": "mean: 416.1011805000072 msec\nrounds: 2"
           }
         ]
       }
