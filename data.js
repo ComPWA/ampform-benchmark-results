@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784140744428,
+  "lastUpdate": 1788344998995,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1581,6 +1581,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.036621315463200646",
             "extra": "mean: 416.1011805000072 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b5edb02c7910d8b54e914339c6a29303536b316",
+          "message": "DX: upgrade pre-commit hooks and lock files (#507)\n\n* DX: ignore local agent configuration\n* DX: pin reusable workflows by commit hash\n* FIX: match K-matrix residue symbols on str(s)\n* MAINT: consolidate qrules imports in helicity.decay\n* MAINT: migrate noqa codes to Ruff rule names\n* MAINT: simplify coefficient multiplicity test\n* MAINT: standardize `# ty: ignore` comments",
+          "timestamp": "2026-09-02T12:29:27+02:00",
+          "tree_id": "f40099a27c455b402c8b38a8a775ee4cbe0c7544",
+          "url": "https://github.com/ComPWA/ampform/commit/0b5edb02c7910d8b54e914339c6a29303536b316"
+        },
+        "date": 1788344998462,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.3336917883920436,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04417988319611476",
+            "extra": "mean: 428.50559999999757 msec\nrounds: 2"
           }
         ]
       }
