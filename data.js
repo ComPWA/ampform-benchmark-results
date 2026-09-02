@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788351666868,
+  "lastUpdate": 1788353360830,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1643,6 +1643,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04549031752464175",
             "extra": "mean: 426.11947500000724 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cf0d31bb8e8c8e7ddea3154a0b1777fe428a8177",
+          "message": "FIX: pickle nested unevaluated expressions (#509)\n\n* DX: add regression tests for pickling nested expressions\n* DX: ignore Ruff pickle rules in the test suite\n* MAINT: use DataclassInstance in dataclass field helpers",
+          "timestamp": "2026-09-02T14:48:45+02:00",
+          "tree_id": "f23674354e2f36c29c6f3886f8c3ec50ac557aab",
+          "url": "https://github.com/ComPWA/ampform/commit/cf0d31bb8e8c8e7ddea3154a0b1777fe428a8177"
+        },
+        "date": 1788353360384,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.875504055552723,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031567251359885466",
+            "extra": "mean: 347.7651154999961 msec\nrounds: 2"
           }
         ]
       }
