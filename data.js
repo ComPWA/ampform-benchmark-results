@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788344998995,
+  "lastUpdate": 1788351666868,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1612,6 +1612,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04417988319611476",
             "extra": "mean: 428.50559999999757 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "49ad8eaef18d105be18abef7c04c6dff92d5907b",
+          "message": "FIX: write disk cache files atomically (#508)\n\n* DX: increase Sphinx linkcheck timeout\n* FIX: keep computed result when cache write fails",
+          "timestamp": "2026-09-02T14:20:33+02:00",
+          "tree_id": "abf43ed8086db41192be8a07a2ee1f8d2b8c7d61",
+          "url": "https://github.com/ComPWA/ampform/commit/49ad8eaef18d105be18abef7c04c6dff92d5907b"
+        },
+        "date": 1788351666247,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.346759673446005,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04549031752464175",
+            "extra": "mean: 426.11947500000724 msec\nrounds: 2"
           }
         ]
       }
