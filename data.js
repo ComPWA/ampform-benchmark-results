@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788353360830,
+  "lastUpdate": 1788531333272,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1674,6 +1674,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.031567251359885466",
             "extra": "mean: 347.7651154999961 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc92774beb076559d2c6dd3810d72f9b5e9d7e89",
+          "message": "DOC: visualize `qrules` results with Mermaid (#510)\n\n* DOC: hide QRules progress bar in notebooks\n* DOC: remove author from documentation footer\n* DOC: render amplitude expressions with aslatex()\n* DOC: render dynamics builder sources as code block\n* DOC: render formalism comparison table as Markdown\n* DOC: replace K-matrix Graphviz graphs with Feynman diagrams\n* DOC: stack topology graphs in get_boost_chain_suffix()\n* DX: remove Graphviz as documentation build dependency\n* FIX: keep documentation build working offline\n* FIX: restore html_static_path in Sphinx config\n* FIX: use aligned to avoid MathJax 4 nesting errors\n* MAINT: remove obsolete cSpell allow-list entries",
+          "timestamp": "2026-09-04T16:14:59+02:00",
+          "tree_id": "9690878808d9805fac859f9126e176fd95145476",
+          "url": "https://github.com/ComPWA/ampform/commit/bc92774beb076559d2c6dd3810d72f9b5e9d7e89"
+        },
+        "date": 1788531332714,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 3.062822675356177,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011175363057202765",
+            "extra": "mean: 326.4962114999719 msec\nrounds: 2"
           }
         ]
       }
