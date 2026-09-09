@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788531333272,
+  "lastUpdate": 1788959519589,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1705,6 +1705,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0011175363057202765",
             "extra": "mean: 326.4962114999719 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1eb4793f9816122326739d7ff3a77fb124922e65",
+          "message": "DX: organize tests with `pytest-describe` (#516)\n\n* MAINT: upgrade lock files",
+          "timestamp": "2026-09-09T13:11:27Z",
+          "tree_id": "fd9d3d8af318f3272439797c45031066ca0cd2ed",
+          "url": "https://github.com/ComPWA/ampform/commit/1eb4793f9816122326739d7ff3a77fb124922e65"
+        },
+        "date": 1788959519052,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.497549092636638,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029767813801287825",
+            "extra": "mean: 400.39253000000485 msec\nrounds: 2"
           }
         ]
       }
