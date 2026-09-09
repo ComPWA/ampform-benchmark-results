@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788959519589,
+  "lastUpdate": 1788968785188,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1736,6 +1736,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.029767813801287825",
             "extra": "mean: 400.39253000000485 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3c6bf4588f7364569c1b48728e97bd0ff716ff53",
+          "message": "FIX: stabilize caching hashes (#515)\n\n* DOC: document hash stability on the public interface\n* FIX: make expression hashes independent of SymPy cache state\n* FIX: put sets and dicts in a fixed order in make_hashable\n* FIX: sort substitution mappings in cached wrappers\n* MAINT: hash pickled bytes directly into the digest\n* MAINT: use positional-only arguments and type variables",
+          "timestamp": "2026-09-09T17:45:46+02:00",
+          "tree_id": "d98b94ff97dfe4ba7fab900a4a025abefa72e05f",
+          "url": "https://github.com/ComPWA/ampform/commit/3c6bf4588f7364569c1b48728e97bd0ff716ff53"
+        },
+        "date": 1788968784614,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.5668644180726212,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0013078406608751365",
+            "extra": "mean: 389.58037399999057 msec\nrounds: 2"
           }
         ]
       }
