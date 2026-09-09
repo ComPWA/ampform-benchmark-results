@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788968785188,
+  "lastUpdate": 1788973631056,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1767,6 +1767,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0013078406608751365",
             "extra": "mean: 389.58037399999057 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de8309178dff312ee1662044484a6e46bd86df08",
+          "message": "FEAT: implement `BreitWigner` expression classes (#423)\n\n* BEHAVIOR: return expression classes from the BW builder\n* BREAK: deprecate relativistic_breit_wigner()\n* BREAK: remove determine_indices re-export from ampform.dynamics\n* DOC: document multi-channel Breit-Wigner\n* FEAT: implement MultichannelBreitWigner and ChannelArguments",
+          "timestamp": "2026-09-09T19:06:37+02:00",
+          "tree_id": "abb02da56b2812c0cd28950c100ab1e7fe54f586",
+          "url": "https://github.com/ComPWA/ampform/commit/de8309178dff312ee1662044484a6e46bd86df08"
+        },
+        "date": 1788973630727,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 2.730567830072377,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04884856561839443",
+            "extra": "mean: 366.22419299999365 msec\nrounds: 2"
           }
         ]
       }
