@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788973631056,
+  "lastUpdate": 1791812371173,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1798,6 +1798,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04884856561839443",
             "extra": "mean: 366.22419299999365 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "62d3983cac219686b95810eb774aa53d92947980",
+          "message": "BREAK: drop support for Python 3.10 (#527)\n\n* DOC: document prek in the contributing guide\n* DOC: link to github.dev instead of open.vscode.dev\n* DX: develop on Python 3.14\n* MAINT: configure ty for SymPy subclasses\n* MAINT: ignore Zenodo links in link check\n* MAINT: pin GitHub Actions to release commits\n* MAINT: rename used dummy variables for Ruff 0.17\n* MAINT: run `prek` in the style and upgrade tasks\n* MAINT: update ComPWA/policy to 0.10.0",
+          "timestamp": "2026-10-12T15:39:01+02:00",
+          "tree_id": "a6196222405465508d95bb3d2531a56d7eec09ba",
+          "url": "https://github.com/ComPWA/ampform/commit/62d3983cac219686b95810eb774aa53d92947980"
+        },
+        "date": 1791812370949,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 3.221764680268472,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0013525856708535191",
+            "extra": "mean: 310.38890149999077 msec\nrounds: 2"
           }
         ]
       }
