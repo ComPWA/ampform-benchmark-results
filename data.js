@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791812371173,
+  "lastUpdate": 1792069596909,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1829,6 +1829,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0013525856708535191",
             "extra": "mean: 310.38890149999077 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef8b1018490d7f5930afac61b7f45b4bda11713d",
+          "message": "FIX: set absent topology amplitudes to zero (#530)",
+          "timestamp": "2026-10-15T15:06:05+02:00",
+          "tree_id": "953653026d35ec8bf424aee3e4c116da23bfa92e",
+          "url": "https://github.com/ComPWA/ampform/commit/ef8b1018490d7f5930afac61b7f45b4bda11713d"
+        },
+        "date": 1792069595895,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 5.483256513427378,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012382798708025233",
+            "extra": "mean: 182.37337566666886 msec\nrounds: 3"
           }
         ]
       }
