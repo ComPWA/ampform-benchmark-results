@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792069596909,
+  "lastUpdate": 1792078351443,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1860,6 +1860,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012382798708025233",
             "extra": "mean: 182.37337566666886 msec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1221c52ccefca986d6ab7fad163ab884907a51b1",
+          "message": "FIX: preserve non-sympy arguments in func (#525)\n\n* BEHAVIOR: print non-default non-sympy arguments in str and srepr\n* FIX: match xreplace rules on non-sympy attributes by type",
+          "timestamp": "2026-10-15T17:31:55+02:00",
+          "tree_id": "037e84cbc7694fea63c918b2b519c784d2e05c59",
+          "url": "https://github.com/ComPWA/ampform/commit/1221c52ccefca986d6ab7fad163ab884907a51b1"
+        },
+        "date": 1792078350926,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 4.968232985802565,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008488701770667518",
+            "extra": "mean: 201.27880533333334 msec\nrounds: 3"
           }
         ]
       }
