@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792078351443,
+  "lastUpdate": 1792079092130,
   "repoUrl": "https://github.com/ComPWA/ampform",
   "entries": {
     "AmpForm benchmark results": [
@@ -1891,6 +1891,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0008488701770667518",
             "extra": "mean: 201.27880533333334 msec\nrounds: 3"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3479f41985db267c2694ab0d181c7e5251cda90d",
+          "message": "ENH: support PDG resonance conventions (#521)\n\n* BEHAVIOR: mark normalized functions with a hat in LaTeX\n* DOC: link PDG 2026 equations and drop sphinx-hep-pdgref\n* DOC: preserve default values in API signatures\n* ENH: add normalize argument to Blatt-Weisskopf factors\n* ENH: add numerator argument to Breit-Wigner classes\n* ENH: add validator option to unevaluated arguments\n* ENH: expose conventions in Breit-Wigner builder",
+          "timestamp": "2026-10-15T17:44:27+02:00",
+          "tree_id": "8402197c0eae1e3b5c734d16dd31e0c13898874d",
+          "url": "https://github.com/ComPWA/ampform/commit/3479f41985db267c2694ab0d181c7e5251cda90d"
+        },
+        "date": 1792079091813,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/doit_speed.py::test_doit_speed",
+            "value": 6.121613663544408,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005295298469333796",
+            "extra": "mean: 163.35562075000354 msec\nrounds: 4"
           }
         ]
       }
